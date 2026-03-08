@@ -1,6 +1,9 @@
 ===========================================
 Wood 围棋规则
 
+“我没有创造新规则，我只是应用围棋的思想去解决了围棋的问题。“  -- wood
+
+
 1. 概述
 Wood 围棋是一套通过固定座子体系与平局胜负修正实现黑白双方严格平衡的创新围棋规则。不贴目、计算简洁、公平稳定，适用于竞技与日常对弈。
 2. 适用棋盘
@@ -48,6 +51,9 @@ Wood 围棋是一套通过固定座子体系与平局胜负修正实现黑白双
 
 ===========================================
 Wood Go Rules
+
+"I didn't create the new rules. I just applied the philosophy of Go to solve the problems of Go."  -- Wood
+
 
 1. Overview
 Wood Go is an innovative Go rule set that achieves strict balance between Black and White through a fixed handicap stone system and draw resolution rules. It is komi-free, simple to score, fair and stable for both competitive and casual play.
