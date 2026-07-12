@@ -15,19 +15,29 @@ Wood 围棋规则
   3. 开局规则
   3.1 座子位置  
   对局开始前，需在棋盘上预先放置一枚白棋座子。  
-  座子位置唯一固定如下：  
-  19 路：b10 坐标位置（第2行第10列）
-  13 路：a7 坐标位置（第1行第7列）  
-  9 路：a5 坐标位置（第1行第5列）  
+  座子位置唯一固定如下（传统中式坐标表述，现代坐标对照）：  
+  19 路：十之二（现代坐标：j2，第10列第2行）
+  13 路：七之一（现代坐标：g1，第7列第1行）  
+  9 路：五之一（现代坐标：e1，第5列第1行）  
   座子在对局开始前放置完毕即可，由哪一方放置不作规定。
 
   3.2 坐标系统  
-  Wood规则采用标准围棋坐标系统：  
-  坐标原点（a1）位于棋盘左下角（从白棋手视角看）：  
-  - 横坐标（列）：从左到右依次为a、b、c...（跳过字母i）  
-  - 纵坐标（行）：从下到上依次为1、2、3...  
-  例如：b10表示第2列、第10行的交叉点。  
-  注：此坐标定义与SGF棋谱格式标准一致。
+  Wood规则采用传统中式围棋坐标系统为主，现代坐标系统为辅助说明：
+
+  **传统中式坐标系统（主规则）**：
+  - 原点为棋盘左上角（围棋手视角）
+  - 采用第四象限坐标系：横向向右为x轴，纵向向下为y轴
+  - 列号：从左到右依次为"一"、"二"、"三"……至"十九"
+  - 行号：从上到下依次为"一"、"二"、"三"……至"十九"
+  - 坐标表述：先列后行，如"十之二"表示第10列第2行的交叉点
+  - 注：此表述方式承袭中国古棋传统，体现围棋文化内涵
+
+  **现代坐标系统（辅助说明）**：
+  - 原点为a1，位于棋盘左上角（围棋手视角）
+  - 横坐标（列）：从左到右依次为a、b、c...（跳过字母i）
+  - 纵坐标（行）：从上到下依次为1、2、3...
+  - 坐标表述：先列后行，如j2表示第10列第2行的交叉点
+  - 注：此坐标定义与SGF棋谱格式标准一致，便于软件实现
 
   3.3 棋手座次  
   白棋手应坐在距离白棋座子最近的一侧，黑棋手坐在相对一侧。  
@@ -82,7 +92,7 @@ Wood 围棋规则
   这就是为什么在Wood围棋规则中，白棋手总是坐在座子侧——因为你不仅是在
   下棋，更是在守护自己的家园。
 
-2026.03.07.wood
+2026.07.12.wood
 
 <p align="center">
   <img src="etc/wood_logo.jpg" alt="Wood 围棋规则" width="200"><br>
@@ -107,19 +117,29 @@ Wood Go Rules
   3. Opening Rules
   3.1 Handicap Stone Position  
   Before the game starts, one White handicap stone shall be placed on the board.  
-  The handicap stone position is uniquely fixed as follows:  
-  19×19: b10 coordinate position (row 2, column 10)  
-  13×13: a7 coordinate position (row 1, column 7)  
-  9×9: a5 coordinate position (row 1, column 5)  
+  The handicap stone position is uniquely fixed as follows (Traditional Chinese coordinates with modern coordinates as reference):  
+  19×19: 十之二 (Modern: j2, column 10, row 2)  
+  13×13: 七之一 (Modern: g1, column 7, row 1)  
+  9×9: 五之一 (Modern: e1, column 5, row 1)  
   The handicap stone is placed before the game begins; who places it is not specified.
 
   3.2 Coordinate System  
-  Wood Rules use the standard Go coordinate system:  
-  The origin (a1) is at the bottom-left corner of the board (from White's perspective):  
-  - Horizontal coordinates (columns): a, b, c... from left to right (skipping letter i)  
-  - Vertical coordinates (rows): 1, 2, 3... from bottom to top  
-  For example: b10 represents the intersection at column 2, row 10.  
-  Note: This coordinate definition aligns with SGF game record format standards.
+  Wood Rules primarily use the traditional Chinese Go coordinate system, with modern coordinates as supplementary reference:
+
+  **Traditional Chinese Coordinate System (Primary Rule)**:
+  - Origin at the top-left corner of the board (Go player's perspective)
+  - Uses the fourth quadrant coordinate system: horizontal rightward as x-axis, vertical downward as y-axis
+  - Column numbers: From left to right: "一" (One), "二" (Two), "三" (Three) ... up to "十九" (Nineteen)
+  - Row numbers: From top to bottom: "一" (One), "二" (Two), "三" (Three) ... up to "十九" (Nineteen)
+  - Coordinate notation: Column first, then row, e.g., "十之二" represents the intersection at column 10, row 2
+  - Note: This notation inherits from ancient Chinese Go tradition, embodying the cultural depth of Go
+
+  **Modern Coordinate System (Supplementary Reference)**:
+  - Origin at a1, located at the top-left corner of the board (Go player's perspective)
+  - Horizontal coordinates (columns): a, b, c... from left to right (skipping letter i)
+  - Vertical coordinates (rows): 1, 2, 3... from top to bottom
+  - Coordinate notation: Column first, then row, e.g., j2 represents the intersection at column 10, row 2
+  - Note: This coordinate definition aligns with SGF game record format standards, facilitating software implementation
 
   3.3 Player Seating  
   White should sit on the side closest to the White handicap stone, with Black on the opposite side.  
@@ -174,7 +194,7 @@ Wood Go Rules
   This is why in Wood Go Rules, White always sits on the handicap stone side—because you are not just
   playing a game, but guarding your homeland.
 
-2026.03.07.wood
+2026.07.12.wood
 
 <p align="center">
   <img src="etc/wood_logo.jpg" alt="Wood Go Rules" width="200"><br>
