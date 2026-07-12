@@ -10,8 +10,9 @@ Wood围棋规则是一种创新的围棋变体规则，通过白棋首手座子�
 | 项目          | 中文说明                                  | English Explanation                          |
 |---------------|-------------------------------------------|----------------------------------------------|
 | 棋盘规格      | 9/13/19路通用                             | 9/13/19×19 boards supported                  |
-| 开局座子      | 白棋座子（可旋转4个等效位）<br>9路：a5 · 13路：a7 · 19路：b10 | White handicap (4 rotational positions)<br>9×9:a5 · 13×13:a7 · 19×19:b10 |
-| 座子放置      | 赛前放好即可，谁放不限                    | Placed before game, placer not specified      |
+| 开局座子      | 白棋座子（唯一固定位置）<br>9路：a5 · 13路：a7 · 19路：b10 | White handicap (fixed position)<br>9×9:a5 · 13×13:a7 · 19×19:b10 |
+| 坐标系统      | a1为左下角（白棋视角），列a-s，行1-19    | a1 at bottom-left (White's view), cols a-s, rows 1-19 |
+| 棋手座次      | 白棋守座子侧 · 黑棋在对面<br>你是白棋，就要守护好白棋这一侧 | White guards handicap side · Black opposite<br>You are White, guard White's side |
 | 行棋顺序      | 座子后黑棋先行，交替落子                  | Black plays first after handicap, alternate  |
 | 核心定义「地」| 活子数 + 围空点                           | Field = Living Stones + Owned Territory      |
 | 胜负判定      | 地多者胜；平局按棋盘定：<br>9路→黑胜 · 13/19路→白胜 | Larger Field wins; Draw rules:<br>9×9→Black · 13/19×19→White |
